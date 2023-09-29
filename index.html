@@ -12,46 +12,75 @@
 <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
 <link rel='stylesheet' href='https://codepen.io/CodeBoomer/pen/PzgWYp.css'><link rel="stylesheet" href="./style.css">
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- <title>Responsive Navbar</title> -->
+<!-- Add Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+	.navbar {
+		z-index: 1000; /* Adjust the value as needed */
+	}
+</style>
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<body data-spy="scroll" data-target="#scroll-spy">
+<!-- <body data-spy="scroll" data-target="#scroll-spy"> -->
 	
 	<!-- Navigation - Fixed Top -->
-	<nav class="navbar navbar-fixed-top">
+	 <!-- <nav class="navbar navbar-fixed-top">
 		<div class="container-fluid">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
+			 Brand and toggle get grouped for better mobile display -->
+			 <!-- <div class="navbar-header">
 				<a class="navbar-home" href="#home" role="button">
 					<svg class="lnr lnr-home"><use xlink:href="#lnr-home"></use></svg>
 				</a>	
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#scroll-spy" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<i class="material-icons">&#xE5D2;</i>
-				</button>
-<!-- 				<a class="navbar-brand" href="#home">Boom Scroll
-					<i class="material-icons">mouse</i>
-				</a> -->
+
 			</div>
 
-			<!-- Collect the nav links, forms for toggling -->
+			
 			<div class="collapse navbar-collapse" id="scroll-spy">
 
-				<!-- navbar-nav -->
 				<ul class="nav navbar-nav ">
 					<li><a href="#about">About</a></li>
 					<li><a href="#pictures">Pictures</a></li>
 					<li><a href="#features">Strengths</a></li>
 					<li><a href="#team">Team</a></li>
 					<li><a href="#">Idea's Gallery</a></li>
-					<li><a href="img_gal.html">Image Gallery</a></li>	
-					<li><a href="#">Video Gallery </a></li>				
-				</ul><!-- /.navbar-nav -->
-			</div><!-- /.navbar-collapse -->		
-		</div><!-- /.container-fluid -->
-	</nav><!-- /.fixed navigation -->
-	
+					<li><a href="image_gallery/image_g.html">Image Gallery</a></li>	
+					<li><a href="image_gallery/video_g.html">Video Gallery </a></li>				
+				</ul>
+			</div>		
+		</div> -->
+	<!-- </nav>/.fixed navigation    -->
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-subtle " style="color:white">
+        <span class="nav navbar-nav " style=" font-size:250%; margin-right:5%; font-family:fantasy" href="#">SRUJAN</span>
+        <button class="navbar-toggler" style="background-color: whitesmoke;" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="nav navbar-nav ">
+				<li><a href="#about"><span>About</span></a></li>
+				<li><a href="#pictures">Pictures</a></li>
+				<li><a href="#features">Strengths</a></li>
+				<li><a href="#team">Team</a></li>
+				<li><a href="#">Idea's Gallery</a></li>
+				<li><a href="image_gallery/image_g.html">Image Gallery</a></li>	
+				<li><a href="image_gallery/video_g.html">Video Gallery </a></li>				
+			</ul>
+        </div>
+    </nav>
+
+    <!-- Your content goes here -->
+
+    <!-- Add Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
 	<section id="home">
 		<div class="container">
 			<div class="row">
@@ -89,21 +118,82 @@
 
                         At Srujan, we believe that innovation is not just a buzzword; it's a way of life. We are a team of passionate individuals who thrive on challenges and are dedicated to pioneering change. Our culture encourages curiosity, collaboration, and continuous learning, creating an environment where ideas flourish and innovative thinking is nurtured.
                         
-                        Our journey towards a brighter and more innovative future is not just about commercial success; it's about making a positive impact on society as well. We are committed to holistic growth, which means that our innovations not only drive business success but also contribute to societal development. We actively seek opportunities to address pressing global challenges, from sustainability and healthcare to education and beyond.
-                        Key pillars of Srujan: Innovation Excellence: We invest in research and development to stay at the forefront of technology and innovation. Our team of experts explores new horizons, discovers uncharted territories, and transforms ideas into real-world solutions.
-                        
-                        Creative Business Models: We understand that innovation must translate into sustainable business models. Our experts in strategy and business development work hand in hand with our innovators to create models that disrupt markets and create lasting value.
-                        
-                        Collaborative Ecosystem: We believe in the power of collaboration. Srujan collaborates with leading universities, research institutions, startups, and industry partners to leverage collective intelligence and drive innovation. Societal Impact: We are driven by a sense of responsibility to society. Our innovations aim to improve the quality of life for people around the world, addressing pressing challenges and contributing to a brighter future.
-                        
-                        Continuous Learning: In a rapidly evolving world, learning is the key to staying relevant. At Srujan, we encourage our team members to pursue continuous learning and professional development, ensuring that we are always ahead of the curve.
-                        
-                        Join us on this exciting journey towards a future where innovation knows no bounds. Whether you are a visionary entrepreneur, a talented researcher, or someone who shares our passion for innovation and societal development, Srujan welcomes you to be a part of our dynamic team. Together, we will create waves of innovation and shape a better tomorrow.</p>				
+                        Our journey towards a brighter and more innovative future is not just about commercial success; it's about making a positive impact on society as well. We are committed to holistic growth, which means that our innovations not only drive business success but also contribute to societal development. We actively seek opportunities to address pressing global challenges, from sustainability and healthcare to education and beyond.</p>
+						<div class="section-header">
+							Key pillars of Srujan</div>
+                       </p>				
 				</div><!-- /.col -->
 			</div><!-- /.row -->
 		</div><!-- /.container -->
 	</section><!-- /#about -->	
-	
+
+
+	<!-- myyyyyyy -->
+	<section id="teamnew">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<div class="container">
+				<div class="row">
+					
+			        <div class="col-md-3 col-sm-6"> 
+						<div class="our-teamnew">
+							<div class="picnew">
+								<img src="pillar.png">
+							</div>
+							<h3 class="titlenew">Excellence</h3>
+							<span class="postnew">Invest in research and development to stay at the forefront of technology and innovation. Our team of experts explores new horizons, discovers uncharted territories, and transforms ideas into real-world solutions.</span>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="our-teamnew">
+							<div class="picnew">
+								<img src="pillar.png">
+							</div>
+							<h3 class="titlenew">Creative Business Models </h3>
+							<span class="postnew">Understand that innovation must translate into sustainable business models. Our experts in strategy and business development work hand in hand with our innovators to create models that disrupt markets and create lasting value.
+							</span>
+						</div>
+					</div>
+			
+					<div class="col-md-3 col-sm-6">
+						<div class="our-teamnew">
+							<div class="picnew">
+								<img src="pillar.png">
+							</div>
+							<h3 class="titlenew">Collaborative Ecosystem</h3>
+							<span class="postnew">We believe in the power of collaboration. Srujan collaborates with leading universities, research institutions, startups, and industry partners to leverage collective intelligence and drive innovation. Societal Impact: We are driven by a sense of responsibility to society. Our innovations aim to improve the quality of life for people around the world, addressing pressing challenges and contributing to a brighter future.
+							</span>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="our-teamnew">
+							<div class="picnew">
+								<img src="pillar.png">
+							</div>
+							<h3 class="titlenew">Continuous Learning</h3>
+							<span class="postnew">In a rapidly evolving world, learning is the key to staying relevant. At Srujan, we encourage our team members to pursue continuous learning and professional development, ensuring that we are always ahead of the curve.
+							</span>
+						</div>
+					</div>
+					 
+				</div>
+			</div>
+		</section>
+		<section id="about">
+			<div class="container">
+				<div class="row">
+					
+					</div><!-- /.col -->
+				</div><!-- /.row -->	
+				<div class="row">
+					<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+						
+						   <div style="text-align: center;font-size: medium;">Join us on this exciting journey towards a future where innovation knows no bounds.Whether you are a visionary entrepreneur, a talented researcher, or someone who shares our passion for innovation and societal development, Srujan welcomes you to be a part of our dynamic team. Together, we will create waves of innovation and shape a better tomorrow.</div>	
+					</div><!-- /.col -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</section><!-- /#about -->
+
+	<!-- myyyyyyyy -->
 	<section id="pictures">
 		<div class="container">
 			<div class="row">
