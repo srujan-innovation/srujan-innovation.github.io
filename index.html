@@ -21,20 +21,24 @@
 	.navbar {
 		z-index: 1000; /* Adjust the value as needed */
 	}
-	.hover-link {
+	li {
+    position: relative; /* Set the parent <li> to a relative position */
+}
+
+.hover-link {
     display: none; /* Hide the link by default */
+    position: absolute;
+    top: 100%; /* Position the link below the parent */
+    left: 0;
+    background: white; /* Set the background color to match the parent's background */
+    padding: 5px; /* Add padding for spacing */
+    border: 1px solid #ccc; /* Add a border for separation */
 }
 
 li:hover .hover-link {
-    display: inline; /* Display the link when the parent <li> is hovered */
-    margin-left: 5px; /* Add spacing between "Idea's Gallery" and the link */
-    color: #007bff; /* Change the link color (you can use your preferred color) */
-    text-decoration: none; /* Remove underline on the link */
+    display: block; /* Display the link when the parent <li> is hovered */
 }
 
-li:hover .hover-link a {
-    text-decoration: underline; /* Add underline when the link is hovered */
-}
 
 </style>
 </head>
