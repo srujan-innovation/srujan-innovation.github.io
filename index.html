@@ -21,6 +21,21 @@
 	.navbar {
 		z-index: 1000; /* Adjust the value as needed */
 	}
+	.hover-link {
+    display: none; /* Hide the link by default */
+}
+
+li:hover .hover-link {
+    display: inline; /* Display the link when the parent <li> is hovered */
+    margin-left: 5px; /* Add spacing between "Idea's Gallery" and the link */
+    color: #007bff; /* Change the link color (you can use your preferred color) */
+    text-decoration: none; /* Remove underline on the link */
+}
+
+li:hover .hover-link a {
+    text-decoration: underline; /* Add underline when the link is hovered */
+}
+
 </style>
 </head>
 <body>
@@ -47,7 +62,8 @@
 					<li><a href="#pictures">Pictures</a></li>
 					<li><a href="#features">Strengths</a></li>
 					<li><a href="#team">Team</a></li>
-					<li><a href="#">Idea's Gallery</a></li>
+					<li><a href="#">Idea's Gallery</a>
+						<span class="hover-link">[<a href="campaign_ideas.html">Campaign Ideas</a>]</span></li>
 					<li><a href="image_gallery/image_g.html">Image Gallery</a></li>	
 					<li><a href="image_gallery/video_g.html">Video Gallery </a></li>				
 				</ul>
